@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Card from "./components/Card/Card";
 import { Text, Stack, Input, Box, Button } from "@chakra-ui/react";
 function App() {
-  const API__URL = "http://www.omdbapi.com?apikey=2d5d9b60";
+  const API__URL = "https://www.omdbapi.com?apikey=2d5d9b60";
 
   const [movie, setMovie] = useState([]);
 
